@@ -1,1 +1,5 @@
-#Create User
+# Create User
+
+# Command
+
+ansible-playbook -i inventory playbook.yaml --become --extra-vars "ansible_sudo_pass=123@abc"
